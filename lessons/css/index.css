@@ -2,15 +2,27 @@ p{
         
             color: maroon;
             font-family:arial;
-        }
+        } 
+        h1 { font-size: 10vw; }
         h1,h2{
           font-family:Arial;
           color:grey;
           }
         h1{
             border-bottom: 1px solid black;
+          
             }
 em{
     
             font-family:Freestyle Script
             }
+body{
+	color: royalblue;
+	color: rgb(65, 105, 225);
+	color: #4169E1CC;
+	color: rgba(39,177,182,0.8);
+	color: #2775b6CC;
+  color: rgb(72,91,77);
+  color: #48584d;
+  background-color: lightblue;
+}
