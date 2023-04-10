@@ -1,6 +1,3 @@
-p {
-	color: #007e7e; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
-}
 
 h1,h2 {
 	font-weight: 600; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
@@ -9,3 +6,9 @@ h1,h2 {
 h1   {
     font-weight:200
     }
+.cname{
+color: blue;}
+
+#iname{
+color: coral;}
+
