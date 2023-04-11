@@ -16,7 +16,7 @@ h2 {
 	font-size: 1.3em;
 }
 
-#guarantee {
+.guarantee {
   border:1px dashed white;
   background-color:    #a7cece;
   padding:             25px; 
@@ -50,6 +50,7 @@ h2 {
 	background-repeat:   repeat-x;
 	text-align:          center;  /* 文本居中对齐 */
   line-height: 1;
+  float: right;
 }
 .elixirs h3 { color: #d12c47; }
 
