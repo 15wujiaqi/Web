@@ -1,0 +1,45 @@
+
+.right {
+	float: right;
+}
+
+div.block {
+	width: 45vw;
+	height: 20vh;
+	border: 2px solid black;
+}
+
+.top {
+	margin-bottom: 10px;
+}
+
+.bottom {
+	margin-top: 20px;
+}
+
+.ruler {
+	height: 20px;
+}
+
+.a{
+  width: 70%;
+  height: 50%;
+  background-color: blue;
+  border: 100ch;}
+
+  .b{
+  width: 10%;
+  height: 30%;
+  background-color:brown;
+  border: 200ch;}
+
+  .c{
+  width: 70%;
+  height: 50%;
+  background-color: blue;}
+
+  .d{
+  width: 10%;
+  height: 30%;
+  background-color:brown;
+  border: 200ch;}
