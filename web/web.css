@@ -1,5 +1,5 @@
 .donghua{
-z-index: -1;
+z-index: -111;
 }
 
 
@@ -7,19 +7,12 @@ z-index: -1;
 
 .bigblue{
 background-image: url(image/3/2background.png);
-margin-top: 200px;
 
 }
 
-
-
-
-
-
-
 .blue{
     background-image: url(image/3/background.png);
-    margin: -165px 30px 0px 30px; 
+    margin: 0px 30px 0px 30px; 
     height: 171.792px ;
     width: 940px;
     padding: 15px 30px;
@@ -285,28 +278,19 @@ text-decoration-thickness:auto;
 }
 
 
-.bigwrite{
-    background-image: url(image/3/2background.png);
-    background-position-x :50%;
-    background-position-y :50%; 
-    background-position: 0px;
-    background-size: auto;
-    overflow: hidden;
-    position: relative;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    display: block;
-    font-size: 87.5%;
-} 
-.write{
+ 
 
-    background-color:#ffffff;
-    width: 1000px;
-    height: 575.583px;
-    padding:20px 30px ;
-    position :relative;
-    margin: 0px 30px 120px 30px;
+
+.write{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background-color: rgba(255,255,255,1);
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 100%;
 
     /* background-color :rgb(96, 19, 19);
     box-sizing: border-box;
@@ -562,4 +546,43 @@ text-decoration-thickness:auto;
         width :auto;
         -webkit-font-smoothing :subpixel-antialiased;
 
-      }  
+      }
+
+
+
+
+
+.bigwrite{
+    background-image: url(image/3/2background.png);
+    background-position: center center;
+    background-size: auto;
+    padding-bottom: 120px;
+    }
+
+.smallwrite{
+    width: 1000px;
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+    padding: 0;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.box{
+    background-color: rgb(255,255,255);
+    width:940px;
+    font-size: 14px;
+    line-height: 28px;
+    display: block;
+    padding: 20px 30px 10px 30px;
+}
+
+.box1{
+    width:100%;
+    
+}
+
+.write{
+
+}
